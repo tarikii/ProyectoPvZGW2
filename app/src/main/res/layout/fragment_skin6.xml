@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".skin6Fragment">
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/fondo"
+        app:layout_constraintBottom_toTopOf="@+id/texto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="152dp"
+        android:layout_height="175dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/mysticflower"
+        app:layout_constraintBottom_toTopOf="@+id/descripcion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/texto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mystic Flower"
+        android:background="#63E3F3F3"
+        android:textColor="#01FF1A"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/descripcion"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imagen"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#63E3F3F3"
+        android:text="The Mystic Flower's primary weapon is the Mysterious Energy. It is a chargeable single shot weapon that deals 11 to 60 impact damage and 12 to 68 critical damage. Hold fire to charge up her attacks. Each charge level is more powerful than the last!"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/botonSiguiente"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto" />
+
+    <Button
+        android:id="@+id/botonSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="Next Skin"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintTop_toBottomOf="@id/descripcion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/botondetras"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/botondetras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="Previous Skin"
+        android:layout_marginRight="30dp"
+        app:layout_constraintTop_toBottomOf="@id/descripcion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/botonSiguiente"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

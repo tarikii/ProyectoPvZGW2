@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/homeFragment">
+
+        <fragment
+            android:id="@+id/recyclerCharacterFragment"
+            android:name="com.example.proyectopvzgw2.RecyclerCharacterFragment"
+            android:label="Characters"
+            tools:layout="@layout/fragment_recycler_character" />
+
+        <action
+            android:id="@+id/action_mostrarCharacterFragment"
+            app:destination="@id/mostrarCharacterFragment" />
+        <action
+            android:id="@+id/action_nuevoCharacterFragment"
+            app:destination="@id/nuevoCharacterFragment" />
+        <action
+            android:id="@+id/action_skin1Fragment"
+            app:destination="@id/skin1Fragment" />
+        <action
+            android:id="@+id/action_skin2Fragment"
+            app:destination="@id/skin2Fragment" />
+        <action
+            android:id="@+id/action_skin3Fragment"
+            app:destination="@id/skin3Fragment" />
+        <action
+            android:id="@+id/action_skin4Fragment"
+            app:destination="@id/skin4Fragment" />
+        <action
+            android:id="@+id/action_skin5Fragment"
+            app:destination="@id/skin5Fragment" />
+        <action
+            android:id="@+id/action_skin6Fragment"
+            app:destination="@id/skin6Fragment" />
+        <action
+            android:id="@+id/action_skin7Fragment"
+            app:destination="@id/skin7Fragment" />
+        <action
+            android:id="@+id/action_skin8Fragment"
+            app:destination="@id/skin8Fragment" />
+
+        <action
+            android:id="@+id/action_potted1Fragment"
+            app:destination="@id/potted1Fragment" />
+
+        <action
+            android:id="@+id/action_potted2Fragment"
+            app:destination="@id/potted2Fragment" />
+        <action
+            android:id="@+id/action_potted3Fragment"
+            app:destination="@id/potted3Fragment" />
+        <action
+            android:id="@+id/action_potted4Fragment"
+            app:destination="@id/potted4Fragment" />
+
+
+        <fragment
+            android:id="@+id/nuevoCharacterFragment"
+            android:name="com.example.proyectopvzgw2.NuevoCharacterFragment"
+            android:label="Creacion"
+            tools:layout="@layout/fragment_nuevo_character" />
+        <fragment
+            android:id="@+id/mostrarCharacterFragment"
+            android:name="com.example.proyectopvzgw2.MostrarCharacterFragment"
+            android:label="Detalles"
+            tools:layout="@layout/fragment_mostrar_character" />
+        <fragment
+            android:id="@+id/homeFragment"
+            android:name="com.example.proyectopvzgw2.HomeFragment"
+            android:label="Inicio"
+            tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/skin1Fragment"
+        android:name="com.example.proyectopvzgw2.skin1Fragment"
+        android:label="fragment_skin1"
+        tools:layout="@layout/fragment_skin1" />
+    <fragment
+        android:id="@+id/skin2Fragment"
+        android:name="com.example.proyectopvzgw2.skin2Fragment"
+        android:label="fragment_skin2"
+        tools:layout="@layout/fragment_skin2" />
+    <fragment
+        android:id="@+id/skin3Fragment"
+        android:name="com.example.proyectopvzgw2.skin3Fragment"
+        android:label="fragment_skin3"
+        tools:layout="@layout/fragment_skin3" />
+    <fragment
+        android:id="@+id/skin4Fragment"
+        android:name="com.example.proyectopvzgw2.skin4Fragment"
+        android:label="fragment_skin4"
+        tools:layout="@layout/fragment_skin4" />
+    <fragment
+        android:id="@+id/skin5Fragment"
+        android:name="com.example.proyectopvzgw2.skin5Fragment"
+        android:label="fragment_skin5"
+        tools:layout="@layout/fragment_skin5" />
+    <fragment
+        android:id="@+id/skin6Fragment"
+        android:name="com.example.proyectopvzgw2.skin6Fragment"
+        android:label="fragment_skin6"
+        tools:layout="@layout/fragment_skin6" />
+    <fragment
+        android:id="@+id/skin7Fragment"
+        android:name="com.example.proyectopvzgw2.skin7Fragment"
+        android:label="fragment_skin7"
+        tools:layout="@layout/fragment_skin7" />
+    <fragment
+        android:id="@+id/skin8Fragment"
+        android:name="com.example.proyectopvzgw2.skin8Fragment"
+        android:label="fragment_skin8"
+        tools:layout="@layout/fragment_skin8" />
+    <fragment
+        android:id="@+id/potted1Fragment"
+        android:name="com.example.proyectopvzgw2.potted1Fragment"
+        android:label="fragment_potted1"
+        tools:layout="@layout/fragment_potted1" />
+    <fragment
+        android:id="@+id/potted2Fragment"
+        android:name="com.example.proyectopvzgw2.potted2Fragment"
+        android:label="fragment_potted2"
+        tools:layout="@layout/fragment_potted2" />
+    <fragment
+        android:id="@+id/potted3Fragment"
+        android:name="com.example.proyectopvzgw2.potted3Fragment"
+        android:label="fragment_potted3"
+        tools:layout="@layout/fragment_potted3" />
+    <fragment
+        android:id="@+id/potted4Fragment"
+        android:name="com.example.proyectopvzgw2.potted4Fragment"
+        android:label="fragment_potted4"
+        tools:layout="@layout/fragment_potted4" />
+</navigation>
