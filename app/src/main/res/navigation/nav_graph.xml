@@ -132,4 +132,9 @@
         android:name="com.example.proyectopvzgw2.potted4Fragment"
         android:label="fragment_potted4"
         tools:layout="@layout/fragment_potted4" />
+    <fragment
+        android:id="@+id/recyclerAlfabeticFragment"
+        android:name="com.example.proyectopvzgw2.recyclerAlfabeticFragment"
+        android:label="fragment_recycler_alfabetic"
+        tools:layout="@layout/fragment_recycler_alfabetic" />
 </navigation>

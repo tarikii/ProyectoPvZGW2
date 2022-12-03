@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/beryp/Desktop/ProyectoPvZGW2/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/beryp/Desktop/ProyectoPvZGW2/app/src/main/res/layout/fragment_mostrar_character.xml" value="0.1" />
+        <entry key="..\:/Users/beryp/Desktop/ProyectoPvZGW2/app/src/main/res/layout/fragment_nuevo_character.xml" value="0.1" />
+        <entry key="..\:/Users/beryp/Desktop/ProyectoPvZGW2/app/src/main/res/layout/fragment_skin3.xml" value="0.25" />
+        <entry key="..\:/Users/beryp/Desktop/ProyectoPvZGW2/app/src/main/res/layout/fragment_skin8.xml" value="0.1" />
+        <entry key="..\:/Users/beryp/Desktop/ProyectoPvZGW2/app/src/main/res/menu/nav_menu.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.322463768115942" />
         <entry key="app/src/main/res/layout/fragment_map1.xml" value="0.35625" />

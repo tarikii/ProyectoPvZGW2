@@ -7,8 +7,9 @@ import androidx.room.PrimaryKey;
 public class Character {
     @PrimaryKey(autoGenerate = true)
     int id;
-    String name;
+
     int image;
+    String name;
     String description;
 
     public Character(int image, String name, String description) {

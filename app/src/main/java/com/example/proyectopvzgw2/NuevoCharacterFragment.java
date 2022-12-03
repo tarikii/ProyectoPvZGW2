@@ -36,10 +36,10 @@ public class NuevoCharacterFragment extends Fragment {
                 String description = binding.description.getText().toString();
 
                 switch (name){
-                    case "Pomelo":
+                    case "pomelo":
                         characterViewModel.insertar(new Character(R.drawable.pomelo,name, description));
                         break;
-                    case "Engineer":
+                    case "engineer":
                         characterViewModel.insertar(new Character(R.drawable.engineer,name, description));
                         break;
                     default:

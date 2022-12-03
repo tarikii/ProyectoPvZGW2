@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/imagen"
-        android:layout_width="152dp"
-        android:layout_height="175dp"
+        android:layout_width="158dp"
+        android:layout_height="141dp"
         android:adjustViewBounds="true"
         android:src="@drawable/icepea"
         app:layout_constraintBottom_toTopOf="@+id/descripcion"
