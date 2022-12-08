@@ -135,6 +135,5 @@
     <fragment
         android:id="@+id/recyclerAlfabeticFragment"
         android:name="com.example.proyectopvzgw2.recyclerAlfabeticFragment"
-        android:label="fragment_recycler_alfabetic"
-        tools:layout="@layout/fragment_recycler_alfabetic" />
+        android:label="fragment_recycler_alfabetic" />
 </navigation>
